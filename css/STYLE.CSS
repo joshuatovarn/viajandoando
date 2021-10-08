@@ -201,7 +201,7 @@ header {
     border-radius: 50px;
     font-weight: 700;
     line-height: 30px;
-    margin-right: 5px;
+    margin-right: 1rem;
 }
 
 /*******************************************COUNTRIES******************************************/
@@ -440,6 +440,14 @@ footer {
         width: 100%;
     }
 
+    .img-gallery {
+        width: 48%; 
+    }
+
+    .experts{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width:1200px) {
