@@ -448,6 +448,11 @@ footer {
         display: flex;
         flex-direction: column;
     }
+
+    .cont-expert {
+        width: 50%;
+    }
+
 }
 
 @media screen and (max-width:1200px) {
