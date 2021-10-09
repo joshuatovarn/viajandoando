@@ -357,17 +357,6 @@ header>.container {
 
 @media screen and (max-width:800px) {
 
-    .hamburguer {
-        top: 44%;
-        right: 1rem;
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-
-    .menu-navegacion {
-        width: 180px;
-    }
-
     .container-service img {
         width: 100%;
         margin-bottom: 40px;
@@ -409,16 +398,7 @@ header>.container {
     }
 }
 
-@media screen and (max-width:368px) {
-    .menu-navegacion {
-        width: 180px;
-    }
-}
-
 @media screen and (max-width:1024px) {
-    .menu-navegacion {
-        width: 180px;
-    }
 
     .container-service {
         display: flex;
@@ -447,12 +427,6 @@ header>.container {
         width: 50%;
     }
 
-}
-
-@media screen and (max-width:1200px) {
-    .menu-navegacion {
-        width: 180px;
-    }
 }
 
 @media screen and (min-width: 1024px) {
