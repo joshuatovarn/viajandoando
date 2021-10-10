@@ -4,7 +4,7 @@
     --white-color: #fff;
     --black-color: #000;
     --first-color: #e6e6e6;
-    --subtitle-color: #8e76c5;
+    --subtitle-color: #6337c9;
     --footer-color: #a79cc4;
     --list-color: #a79cc4;
     --link-color: #303440;
@@ -38,6 +38,7 @@ html {
     color: var(--subtitle-color);
     margin-bottom: 2.5rem;
     font-size: 2.5rem;
+    letter-spacing: 2px;
 }
 
 .title {
@@ -69,7 +70,7 @@ html {
 
 .hero-image-opacity {
     width: 100%;
-    min-height: 60vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +105,7 @@ html {
     background-color: var(--first-color);
     opacity: 0;
     pointer-events: none;
-    transition: 0.5s ease;
+    transition: all 0.5s ease-in-out;
 }
 
 .menu.is-active {
@@ -114,7 +115,7 @@ html {
 
 .menu a {
     padding: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -140,7 +141,8 @@ html {
     }
 
     .menu a {
-        padding: 0 auto;
+        font-size: 1.1rem;
+        padding: 0 auto;    
     }
 
     .menu a:last-child {
@@ -223,7 +225,7 @@ header>.container {
 
 .number {
     display: inline-block;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #947ad1 0%, #bd8caf 100%);
     width: 30px;
     height: 30px;
     color: var(--white-color);
@@ -396,6 +398,15 @@ header>.container {
     .text-title {
         font-size: 1rem;
     }
+
+    .hero-image-opacity {
+        min-height: 40vh;
+    }
+
+    .menu a {
+        font-size: 1.4rem;
+    }
+
 }
 
 @media screen and (max-width:1024px) {
@@ -424,7 +435,7 @@ header>.container {
     }
 
     .cont-expert {
-        width: 50%;
+        width: 100%;
     }
 
 }
