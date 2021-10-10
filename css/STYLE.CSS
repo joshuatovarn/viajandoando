@@ -93,6 +93,8 @@ html {
 
 .menu-btn svg {
     fill: var(--subtitle-color);
+    width: 2.2rem;
+    height: 2.2rem;
 }
 
 .menu {
@@ -114,7 +116,7 @@ html {
 }
 
 .menu a {
-    padding: 1.5rem;
+    padding: 1rem;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
@@ -123,7 +125,7 @@ html {
 }
 
 .menu a:hover {
-    color: var(--black-color);
+    color: var(--first-color);
     background-color: var(--subtitle-color);
 }
 
