@@ -93,8 +93,8 @@ html {
 
 .menu-btn svg {
     fill: var(--subtitle-color);
-    width: 2.2rem;
-    height: 2.2rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .menu {
@@ -144,7 +144,7 @@ html {
 
     .menu a {
         font-size: 1.1rem;
-        padding: 0 auto;    
+        padding: 0 auto;
     }
 
     .menu a:last-child {
@@ -330,7 +330,7 @@ header>.container {
 
 .contact-location {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 /********************************FOOTER********************************************************/
