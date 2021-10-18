@@ -336,7 +336,7 @@ header>.container {
 
 .footer {
     background: var(--footer-color);
-    margin-bottom: var(--header-height);
+    margin-bottom: 9rem;
     text-align: center;
     padding: 2rem;
 }
@@ -444,7 +444,7 @@ header>.container {
 @media screen and (min-width: 1024px) {
 
     .footer {
-        margin-bottom: 0;
+        margin-bottom: 0rem;
     }
 
 }
