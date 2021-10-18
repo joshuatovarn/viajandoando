@@ -43,7 +43,7 @@ html {
 
 .title {
     font-size: 3rem;
-    color: var(--black-color);
+    color: var(--white-color);
     text-align: center;
 }
 
@@ -51,7 +51,7 @@ html {
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 .texts {
@@ -70,7 +70,7 @@ html {
 
 .hero-image-opacity {
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
