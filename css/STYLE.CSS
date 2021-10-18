@@ -4,7 +4,6 @@
     --white-color: #fff;
     --black-color: #000;
     --first-color: #e6e6e6;
-    --menu-color: #dcd7df;
     --subtitle-color: #6337c9;
     --footer-color: #a79cc4;
     --list-color: #a79cc4;
@@ -105,7 +104,7 @@ html {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: var(--menu-color);
+    background-color: var(--first-color);
     opacity: 0;
     pointer-events: none;
     transition: all 0.5s ease-in-out;
